@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Carol-Wabiszczewicz</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+</head>
+<body>
+    <section>	
+        <div class="wrapper">
+            <h2>Calculator by <a href="http://www.carol-wabis.pro">Carol Wabiszczewicz</a> </h2>
+            <div class="container-01">
+                <div class="content">
+                    <div class="calculator">
+                        <form class="calculator" name="calc01">
+                            <input type="text" readonly class="value01" name="text"/>
+                            <span class="num clear" onclick="calc01.text.value = ''">c</span>
+                            <span class="num" onclick="document.calc01.text.value +='/'">/</span>
+                            <span class="num" onclick="document.calc01.text.value +='*'">*</span>
+                            <span class="num" onclick="document.calc01.text.value +='7'">7</span>
+                            <span class="num" onclick="document.calc01.text.value +='8'">8</span>
+                            <span class="num" onclick="document.calc01.text.value +='9'">9</span>
+                            <span class="num" onclick="document.calc01.text.value +='-'">-</span>
+                            <span class="num" onclick="document.calc01.text.value +='4'">4</span>
+                            <span class="num" onclick="document.calc01.text.value +='5'">5</span>
+                            <span class="num" onclick="document.calc01.text.value +='6'">6</span>
+                            <span class="num plus" onclick="document.calc01.text.value +='+'">+</span>
+                            <span class="num" onclick="document.calc01.text.value +='1'">1</span>
+                            <span class="num" onclick="document.calc01.text.value +='2'">2</span>
+                            <span class="num" onclick="document.calc01.text.value +='3'">3</span>
+                            <span class="num" onclick="document.calc01.text.value +='0'">0</span>
+                            <span class="num" onclick="document.calc01.text.value +='00'">00</span>
+                            <span class="num" onclick="document.calc01.text.value +='.'">.</span>
+                            <span class="num equal" onclick="document.calc01.text.value =eval(calc01.text.value)">=</span>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
